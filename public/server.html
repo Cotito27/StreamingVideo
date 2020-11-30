@@ -30,8 +30,8 @@
 			)
 
 			n.streaming({
-				video : false,
-				audio : true
+				video : true,
+				audio : false
 			}, function (stream){
 				startCamera = true
 				video.src = w.URL.createObjectURL(stream)
